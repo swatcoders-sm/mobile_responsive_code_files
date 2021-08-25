@@ -52,6 +52,90 @@ font-size: 12px;
 .catalog-category-view .product-item-name, .catalogsearch-result-index .product-item-name {
   height: unset;
 }
+  .product-item .special-price {
+    padding-bottom: 2%
+  }
+  .catalog-product-view #maincontent .special-price .price-label, .catalog-product-view #maincontent .old-price .inc-vat {
+      display: none;
+  }
+  .catalog-product-view #maincontent .old-price .price-label, .catalog-product-view #maincontent .old-price .price {
+      font-family: 'Gotham Narrow Bold';
+      font-weight: unset;
+      color: white;
+      text-transform: uppercase;
+      font-size: 25px;
+  }
+  .catalog-product-view #maincontent .saved-price {
+    display: block;
+    width: 100%;
+    border: 1px solid #991a24;
+    background: #991a24;
+    text-transform: uppercase;
+  }
+  .catalog-product-view #maincontent .saved-price .price-label {
+    color: white;
+    font-family: 'Gotham Narrow black';
+    font-size: 40px;
+    padding: 3%;
+  }
+  .catalog-product-view #maincontent .old-price .price-container {
+    text-decoration: none;
+      display: inline-block;
+  }
+  .catalog-product-view #maincontent .price-box.price-final_price.save {
+    position: relative;
+    height: 130px;
+  }
+  .page-products #maincontent .price-box .old-price {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Gotham Narrow medium';
+  }
+  .page-products #maincontent .price-box .old-price .inc-vat {
+    display:none;
+  }
+  .catalog-product-view #maincontent .price-box .old-price {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #991a24;
+    border: 1px solid #991a24;
+    padding: 0% 0% 1% 3%;
+  }
+  .catalog-product-view #maincontent .price-box .saved-price {
+    display: block;
+    width: 100%;
+    border: 1px solid #991a24;
+      background: #991a24;
+  }
+  .page-products #maincontent .price-box .old-price  .price {
+    font-size: inherit;
+    font-family: inherit;
+  }
+  .page-products #maincontent .price-box .old-price .price-container {
+    text-decoration: inherit;
+    color: #737e7a;
+  }
+  .page-products #maincontent .price-box .old-price .price-label {
+    display:inline-block;
+    text-decoration: inherit;
+    font-size: inherit;
+  }
+  .page-products #maincontent .saved-price .price-label {
+    display:inline-block;
+    font-family: 'Gotham Narrow Bold';
+    color: #991a24;
+    text-transform: uppercase;
+  }
+  .page-products #maincontent .saved-price .price-label .price {
+    font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: unset;
+  }
+  .page-products #maincontent .product-item .price-box .price-label:after {
+    display:none;
+  }
 
 /*************************/
 /*** Tablet Filter Fix ***/
@@ -136,99 +220,11 @@ ol.products.list.items.product-items {
     margin-bottom: 5%;
     line-height: 1;
   }
-  .page-products #maincontent .price-box .old-price {
+    .page-products #maincontent .price-box .old-price {
    font-size: 11px;
-    position: unset;
-    bottom: unset;
-    left: unset;
-    width: auto;
   }
   .page-products #maincontent .saved-price .price-label {
     font-size: 16px;
-  }
-  .product-item .special-price {
-    padding-bottom: 2%
-  }
-  .catalog-product-view #maincontent .special-price .price-label, .catalog-product-view #maincontent .old-price .inc-vat {
-      display: none;
-  }
-  .catalog-product-view #maincontent .old-price .price-label, .catalog-product-view #maincontent .old-price .price {
-      font-family: 'Gotham Narrow Bold';
-      font-weight: unset;
-      color: white;
-      text-transform: uppercase;
-      font-size: 25px;
-  }
-  .catalog-product-view #maincontent .saved-price {
-    display: block;
-    width: 100%;
-    border: 1px solid #991a24;
-    background: #991a24;
-    text-transform: uppercase;
-  }
-  .catalog-product-view #maincontent .saved-price .price-label {
-    color: white;
-    font-family: 'Gotham Narrow black';
-    font-size: 40px;
-    padding: 3%;
-  }
-  .catalog-product-view #maincontent .old-price .price-container {
-    text-decoration: none;
-      display: inline-block;
-  }
-  .catalog-product-view #maincontent .price-box.price-final_price.save {
-    position: relative;
-    height: 130px;
-  }
-  .page-products #maincontent .price-box .old-price {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: 'Gotham Narrow medium';
-  }
-  .page-products #maincontent .price-box .old-price .inc-vat {
-    display:none;
-  }
-  .catalog-product-view #maincontent .price-box .old-price {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    background: #991a24;
-    border: 1px solid #991a24;
-    padding: 0% 0% 1% 3%;
-  }
-  .catalog-product-view #maincontent .price-box .saved-price {
-    display: block;
-    width: 100%;
-    border: 1px solid #991a24;
-      background: #991a24;
-  }
-  .page-products #maincontent .price-box .old-price  .price {
-    font-size: inherit;
-    font-family: inherit;
-  }
-  .page-products #maincontent .price-box .old-price .price-container {
-    text-decoration: inherit;
-    color: #737e7a;
-  }
-  .page-products #maincontent .price-box .old-price .price-label {
-    display:inline-block;
-    text-decoration: inherit;
-    font-size: inherit;
-  }
-  .page-products #maincontent .saved-price .price-label {
-    display:inline-block;
-    font-family: 'Gotham Narrow Bold';
-    color: #991a24;
-    text-transform: uppercase;
-  }
-  .page-products #maincontent .saved-price .price-label .price {
-    font-size: inherit;
-  color: inherit;
-  font-family: inherit;
-  font-weight: unset;
-  }
-  .page-products #maincontent .product-item .price-box .price-label:after {
-    display:none;
   }
   
 /*************************/
