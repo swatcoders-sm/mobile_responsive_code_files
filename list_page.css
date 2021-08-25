@@ -80,13 +80,11 @@ ol.products.list.items.product-items {
     text-align: center;
 }
 .catalog-category-view .page-wrapper .products-grid .product-item .delivery-wrap ul li p, .catalogsearch-result-index .page-wrapper .products-grid .product-item .delivery-wrap ul li p {
-  font-size: 14px;
+  font-size: 13px;
+  padding-left: 23px
 }
 .catalog-category-view .page-wrapper .products-grid .product-item .delivery-wrap ul li span, .catalogsearch-result-index .page-wrapper .products-grid .product-item .delivery-wrap ul li span {
   font-size: 20px;
-}
-.catalog-category-view .page-wrapper .products-grid .product-item .delivery-wrap ul li p, .catalogsearch-result-index .page-wrapper .products-grid .product-item .delivery-wrap ul li p {
-  padding-left: 23px
 }
 .catalog-category-view .product-item-name, .catalogsearch-result-index .product-item-name {
   display: -webkit-box;
