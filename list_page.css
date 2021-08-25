@@ -121,10 +121,6 @@ ol.products.list.items.product-items {
 .catalog-category-view .page-wrapper .products-grid .product-item .product-price .price-box, .catalogsearch-result-index .page-wrapper .products-grid .product-item .product-price .price-box {
   height: auto;
 }
-.page-products #maincontent .price-box {
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
 .page-products #maincontent p.product-buy-free {
   font-size: 24px
 }
@@ -134,8 +130,11 @@ ol.products.list.items.product-items {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-around;
-     min-height: 40px;
-    margin-top: 5%
+    align-content: space-between;
+    min-height: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 1;
   }
   .page-products #maincontent .price-box .old-price {
    font-size: 11px;
@@ -227,11 +226,6 @@ ol.products.list.items.product-items {
   color: inherit;
   font-family: inherit;
   font-weight: unset;
-  }
-  .page-products #maincontent .price-box {
-    display: block;
-    overflow: visible;
-    line-height: 1;
   }
   .page-products #maincontent .product-item .price-box .price-label:after {
     display:none;
