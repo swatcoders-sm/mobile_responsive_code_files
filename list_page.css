@@ -136,7 +136,25 @@ font-size: 12px;
   .page-products #maincontent .product-item .price-box .price-label:after {
     display:none;
   }
-
+/*************************/
+/*** Prices on Desktop ***/
+/*************************/
+@media screen and (min-width: 992px) {
+.page-products #maincontent .price-box {
+  position: relative;
+  display: block;
+    overflow: visible;
+    line-height: 1;
+  }
+  .page-products #maincontent .price-box .old-price {
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    width: 100%;
+}
+  .page-products #maincontent .saved-price .price-label {
+    font-size: 1.2em;
+}
 /*************************/
 /*** Tablet Filter Fix ***/
 /*************************/
