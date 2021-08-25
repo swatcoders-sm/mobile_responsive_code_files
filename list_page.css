@@ -74,7 +74,7 @@ font-size: 12px;
 
 @media screen and (max-width: 639px) {
 .catalog-category-view #maincontent .product-item, .catalogsearch-result-index #maincontent .product-item
-{width: 48%!important;margin: 1%;padding: 2%;}
+{width: 48%!important;padding: 2%;}
 
 ol.products.list.items.product-items {
     text-align: center;
