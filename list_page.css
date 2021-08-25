@@ -129,7 +129,7 @@ ol.products.list.items.product-items {
 .top-wrap-content.col-12.col-md-12.col-lg-3 {
   min-height: unset;
 }
-span.action.nav-toggle {
+.page-wrapper span.action.nav-toggle {
   top: 19px
 }
 .page-header .top-wrap-content.col-12, .page-header .middle-wrap-content.col-12 {
