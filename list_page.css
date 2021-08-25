@@ -104,7 +104,7 @@ ol.products.list.items.product-items {
 .breadcrumbs {
   margin-bottom: 3%
 }
-.section-main-banner .homepage-banner-top.owl-carousel, #header-banner-info.items.owl-carousel .owl-dots {
+#header-banner-info.items.owl-carousel .owl-dots {
   display: none;
 }
 .page-wrapper .bottom-header-content {
