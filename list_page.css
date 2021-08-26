@@ -166,6 +166,8 @@ font-size: 12px;
     align-content: space-around;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    margin-top: 5%;
 } 
   .page-products #maincontent .special-price {
     width: 100%;
@@ -253,7 +255,6 @@ ol.products.list.items.product-items {
     justify-content: space-around;
     align-content: space-between;
     min-height: 40px;
-    margin-top: 5%;
     margin-bottom: 5%;
     line-height: 1;
   }
@@ -262,6 +263,9 @@ ol.products.list.items.product-items {
   }
   .page-products #maincontent .saved-price .price-label {
     font-size: 16px;
+  }
+  .page-products #maincontent .special-price {
+   text-align:center; 
   }
   
 /*************************/
