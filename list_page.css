@@ -136,24 +136,43 @@ font-size: 12px;
   .page-products #maincontent .product-item .price-box .price-label:after {
     display:none;
   }
-/*************************/
-/*** Prices on Desktop ***/
-/*************************/
-@media screen and (min-width: 992px) {
+  .page-products #maincontent .saved-price .price-label {
+    font-size: 1.2em;
+}
 .page-products #maincontent .price-box {
   position: relative;
   display: block;
     overflow: visible;
     line-height: 1;
   }
+/*************************/
+/*** Prices on Desktop ***/
+/*************************/
+@media screen and (min-width: 1290px) {
   .page-products #maincontent .price-box .old-price {
     position: absolute;
     bottom: -4px;
     left: 0px;
     width: 100%;
 }
-  .page-products #maincontent .saved-price .price-label {
-    font-size: 1.2em;
+}
+@media screen and (max-width: 1289px) {
+ .page-products #maincontent .price-box {
+    position: relative;
+    display: flex;
+    overflow: visible;
+    line-height: 1;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+} 
+  .page-products #maincontent .special-price {
+    width: 100%;
+  }
+  .page-products #maincontent .old-price {
+   width: 40%; 
+  }
 }
 /*************************/
 /*** Tablet Filter Fix ***/
