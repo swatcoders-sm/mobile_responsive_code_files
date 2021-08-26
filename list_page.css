@@ -251,7 +251,7 @@ ol.products.list.items.product-items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-around;
     align-content: space-between;
     min-height: 40px;
