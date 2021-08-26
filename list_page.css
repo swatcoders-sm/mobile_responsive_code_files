@@ -267,6 +267,9 @@ ol.products.list.items.product-items {
   .page-products #maincontent .special-price {
    text-align:center; 
   }
+  .page-products #maincontent .product-price {
+   margin-top: 0; 
+  }
   
 /*************************/
 /* Mobile Header Changes */
