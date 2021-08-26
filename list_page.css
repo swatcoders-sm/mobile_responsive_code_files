@@ -5,6 +5,9 @@ text-align: center;
 .catalogsearch-result-index .page-main .column.main .search.results .products .items.product-items .product-item {
 padding: 2%;
 }
+.category-image, .category-description {
+ font-size: 15px; 
+}
 .catalog-category-view .product-item-name, .catalogsearch-result-index .product-item-name {min-height: 60px;margin: 0;}
 .catalog-category-view .page-wrapper .products-grid .product-item .delivery-wrap ul li p, .catalogsearch-result-index .page-wrapper .products-grid .product-item .delivery-wrap ul li p {
 font-family: 'Gotham Narrow Book',sans-serif;
