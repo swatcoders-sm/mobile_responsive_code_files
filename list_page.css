@@ -159,7 +159,7 @@ font-size: 12px;
     margin-bottom: 0;
 }
 #maincontent .filter-current {
- margin-bottom: 0;
+ margin-bottom: 5%;
 }
 #maincontent .filter-current .item {
  margin: 0;
@@ -169,7 +169,7 @@ font-size: 12px;
 }
 @media only screen and (max-width: 767px) {
 #maincontent .block-subtitle {
-    padding-top: 1%;
+    padding-top: 3%;
 }
 #maincontent .filter .filter-current-subtitle:before {
  font-size: 45px;
@@ -179,6 +179,9 @@ font-size: 12px;
 }
 #maincontent .filter-current .filter-label {
  padding-left: 0;
+ }
+ #maincontent .filter-current ol.items {
+ padding-bottom: 2%;
  }
 }
 /*************************/
