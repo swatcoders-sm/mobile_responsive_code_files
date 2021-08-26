@@ -176,7 +176,7 @@ font-size: 12px;
     width: 100%;
   }
   .page-products #maincontent .old-price {
-   width: 40%; 
+   width: 45%; 
   }
 }
 /*************************/
@@ -261,10 +261,10 @@ ol.products.list.items.product-items {
     line-height: 1;
   }
     .page-products #maincontent .price-box .old-price {
-   font-size: 11px;
+   font-size: 12px;
   }
   .page-products #maincontent .saved-price .price-label {
-    font-size: 16px;
+    font-size: 15px;
   }
   .page-products #maincontent .special-price {
    text-align:center; 
