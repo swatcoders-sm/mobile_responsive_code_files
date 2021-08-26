@@ -2,6 +2,9 @@
 .catalog-category-view .product-item-name, .catalogsearch-result-index .product-item-name {
 text-align: center;
 }
+input[type=checkbox]:checked+label:after {
+ top: 7px;
+}
 .catalogsearch-result-index .page-main .column.main .search.results .products .items.product-items .product-item {
 padding: 2%;
 }
