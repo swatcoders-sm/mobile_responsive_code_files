@@ -1,0 +1,7 @@
+.catalog-product-view .page-wrapper #maincontent .column.main {
+    padding-top: 100%;
+}
+.gallery-placeholder:not(._block-content-loading) {
+    margin-top: -100%;
+    padding-top: 34px;
+}
