@@ -36,7 +36,7 @@ font-size: 12px;
   height: 60px
 }
 .catalog-category-view .page-wrapper .products-grid .product-item .delivery-wrap ul, .catalogsearch-result-index .page-wrapper .products-grid .product-item .delivery-wrap ul {
-  margin-top: 0;
+  display: none;
 }
 .page-products #maincontent .price-box .inc-vat {
   font-family: 'Gotham Narrow Book',sans-serif
@@ -279,6 +279,7 @@ ol.products.list.items.product-items {
 }
 .catalog-category-view .page-wrapper .products-grid .product-item .product-price, .catalogsearch-result-index .page-wrapper .products-grid .product-item .product-price {
   justify-content: center;
+  margin-top: 0;
 }
 .catalog-category-view .page-wrapper .products-grid .product-item .product-price .price-box, .catalogsearch-result-index .page-wrapper .products-grid .product-item .product-price .price-box {
   height: auto;
