@@ -16,6 +16,9 @@
 .catalog-product-view span.inc-vat, .catalog-product-view span.edit-qty, .catalog-product-view input#qty {
     font-family: 'Gotham Narrow Medium';
 }
+.catalog-product-view table#product-attribute-specs-table th.col.label {
+    width: auto;
+}
 
 body.catalog-product-view.product-dulux-trade-weathershield-masonry-smooth-7-5l-magnolia.page-layout-1column {}@media screen and (max-width: 767px) {
     #maincontent ul.delivery-list.text-left li p {
