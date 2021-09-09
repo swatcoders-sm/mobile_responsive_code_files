@@ -17,8 +17,39 @@
 .catalog-product-view span.inc-vat, .catalog-product-view span.edit-qty, .catalog-product-view input#qty {
     font-family: 'Gotham Narrow Medium';
 }
+.catalog-product-view #maincontent .prices-tier.items {
+  color: white;
+  font-family: 'Gotham Narrow Medium';
+  background: #991a24;
+}
+.catalog-product-view #maincontent .prices-tier.items span.price, .catalog-product-view #maincontent .prices-tier.items .benefit {
+  font-size: 1em;
+  font-weight: unset;
+}
+.catalog-product-view #maincontent .prices-tier.items li.item {
+  font-family: 'Gotham Narrow black';
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.catalog-product-view #maincontent .product-buy-free {
+  display: inline-block;
+  background: #991a24;
+  font-family: 'Gotham Narrow Ultra';
+  color: white;
+  font-size: 3rem;
+}
+  .catalog-product-view #maincontent .product-buy-free .multi {
+        color: #ecc2b4;
+  }
+  .catalog-product-view #maincontent .product-buy-free .multiPrice {
+    font-family: 'Gotham Narrow Bold';
+  }
+  #search_mini_form .mst-searchautocomplete__autocomplete .old-price, #search_mini_form .mst-searchautocomplete__autocomplete .saved-price, #search_mini_form .mst-searchautocomplete__autocomplete .special-price .price-label {
+  display:none;
+  }
 
-body.catalog-product-view.product-dulux-trade-weathershield-masonry-smooth-7-5l-magnolia.page-layout-1column {}@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 767px) {
     .catalog-product-view .page-wrapper #maincontent .column.main {
     padding-top: 100%;
 }

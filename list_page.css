@@ -1,3 +1,51 @@
+#search_mini_form .mst-searchautocomplete__autocomplete .old-price, #search_mini_form .mst-searchautocomplete__autocomplete .saved-price, #search_mini_form .mst-searchautocomplete__autocomplete .special-price .price-label {
+  display:none;
+  }
+.mst-quick-nav__filterList .mst-quick-nav__item label {
+  color:white;
+}
+.mst-quick-nav__filterList .mst-quick-nav__item:hover {
+  border: none;
+}
+
+  .mst-quick-nav__filterList .mst-quick-nav__filterList-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+    font-size: 0px;
+    position: relative;
+    padding: 0px 0px 10px 0px;
+  }
+
+.mst-quick-nav__filterList .mst-quick-nav__filterList-container .mst-quick-nav__item {
+    width: auto;
+    font-size: 15px;
+    background: #00618b;
+    height: auto;
+    margin-right: 10px !important;
+    display: inline-block;
+    font-family: 'Gotham Narrow Medium',sans-serif;
+  }
+  .mst-quick-nav__filterList-prev, .mst-quick-nav__filterList:after, .mst-nav__horizontal-bar, .mst-quick-nav__filterList .mst-quick-nav__item strong, .mst-quick-nav__filterList .mst-quick-nav__item .count, .mst-quick-nav__filterList .mst-quick-nav__item._checked {
+    display:none;
+  }
+
+  .mst-quick-nav__filterList-container::-webkit-scrollbar{
+width: 5px;
+height: 5px;
+}
+.mst-quick-nav__filterList-container::-webkit-scrollbar-thumb{
+background: #B3AFB3;
+border-radius: 0px;
+}
+.mst-quick-nav__filterList-container::-webkit-scrollbar-thumb:hover{
+background: #B3AFB3;
+}
+.mst-quick-nav__filterList-container::-webkit-scrollbar-track{
+background: #F0F0F0;
+border-radius: 0px;
+box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+}
 .catalog-category-view .product-item-name .product-item-link, .catalogsearch-result-index .product-item-name .product-item-link {font-size: 15px;line-height: 1;font-weight: unset;text-decoration: none;}
 .catalog-category-view .product-item-name, .catalogsearch-result-index .product-item-name {
 text-align: center;
@@ -9,7 +57,7 @@ input[type=checkbox]:checked+label:after {
 padding: 2%;
 }
 .category-image, .category-description {
- font-size: 15px; 
+ font-size: 15px;
 }
 .catalog-category-view .product-item-name, .catalogsearch-result-index .product-item-name {min-height: 60px;margin: 0;}
 .catalog-category-view .page-wrapper .products-grid .product-item .delivery-wrap ul li p, .catalogsearch-result-index .page-wrapper .products-grid .product-item .delivery-wrap ul li p {
@@ -40,6 +88,23 @@ font-size: 12px;
 }
 .page-products #maincontent .price-box .inc-vat {
   font-family: 'Gotham Narrow Book',sans-serif
+}
+.page-products #maincontent p.product-buy-free {
+    display: none;
+    background: #991a24;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gotham Narrow Ultra';
+    font-weight: unset;
+    font-size: 26px;
+}
+.page-products #maincontent p.product-buy-free .multi {
+    color: #ecc2b4;
+}
+.page-products #maincontent .product-attribute:after {
+    content: '\200b';
+    line-height: 32px;
 }
 .catalog-category-view .sidebar-main .item a, .catalogsearch-result-index .sidebar-main .item a {
   font-family: 'Gotham Narrow Book',sans-serif;
@@ -151,6 +216,9 @@ font-size: 12px;
     overflow: visible;
     line-height: 1;
   }
+  .page-products #maincontent .delivery-list.text-left {
+    height: 70px;
+  }
 
 /*************************/
 /*** Shopping by Filter ***/
@@ -187,6 +255,11 @@ font-size: 12px;
 /*************************/
 /*** Prices on Desktop ***/
 /*************************/
+@media screen and (max-width: 1024px) {
+.page-products #maincontent .product-item-name {
+    height: auto;
+}
+}
 @media screen and (min-width: 1290px) {
   .page-products #maincontent .price-box .old-price {
     position: absolute;
@@ -207,12 +280,12 @@ font-size: 12px;
     align-items: center;
     width: 100%;
     margin-top: 5%;
-} 
+}
   .page-products #maincontent .special-price {
     width: 100%;
   }
   .page-products #maincontent .old-price {
-   width: 45%; 
+   width: 45%;
   }
 }
 /*************************/
@@ -304,12 +377,12 @@ ol.products.list.items.product-items {
     font-size: 15px;
   }
   .page-products #maincontent .special-price {
-   text-align:center; 
+   text-align:center;
   }
   .page-products #maincontent .product-price {
-   margin-top: 0; 
+   margin-top: 0;
   }
-  
+
 /*************************/
 /* Mobile Header Changes */
 /*************************/
