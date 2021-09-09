@@ -37,6 +37,9 @@
   color: white;
   font-size: 3rem;
 }
+.catalog-product-view #maincontent .delivery-wrap {
+    display: none;
+}
   .catalog-product-view #maincontent .product-buy-free .multi {
         color: #ecc2b4;
   }
