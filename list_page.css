@@ -219,6 +219,9 @@ font-size: 12px;
   .page-products #maincontent .delivery-list.text-left {
     height: 70px;
   }
+  .catalogsearch-result-index #maincontent .page-title-wrapper h1 {
+    display: none;
+  }
 
 /*************************/
 /*** Shopping by Filter ***/
@@ -337,9 +340,6 @@ ol.products.list.items.product-items {
   font-size: 26px!important;
   margin-top: 0;
   margin-bottom: 3%
-}
-.catalogsearch-result-index #maincontent .page-title-wrapper h1 {
-  display: none;
 }
 .breadcrumbs {
   margin-bottom: 3%
