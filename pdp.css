@@ -1,128 +1,22 @@
-
-.catalog-product-view .product.attribute.Specifications ul {
-    margin: 2%;
-    padding-left: 2%;
-    list-style: disc;
-}
-#maincontent ul.delivery-list.text-left li p {
-    font-family: 'Gotham Narrow Book', sans-serif;
-}
-#maincontent .data.item.title a {
-    font-family: 'Gotham Narrow Black';
-}
-.data.item.content {
-    font-family: 'Gotham Narrow Book';
-}
-.catalog-product-view span.inc-vat, .catalog-product-view span.edit-qty, .catalog-product-view input#qty {
-    font-family: 'Gotham Narrow Medium';
-}
-.catalog-product-view #maincontent .prices-tier.items {
-  color: white;
-  font-family: 'Gotham Narrow Medium';
-  background: #991a24;
-}
-.catalog-product-view #maincontent .prices-tier.items span.price, .catalog-product-view #maincontent .prices-tier.items .benefit {
-  font-size: 1em;
-  font-weight: unset;
-}
-.catalog-product-view #maincontent .prices-tier.items li.item {
-  font-family: 'Gotham Narrow black';
-    text-transform: uppercase;
-    font-size: 1em;
-}
-.catalog-product-view #maincontent .product-buy-free {
-  display: inline-block;
-  background: #991a24;
-  font-family: 'Gotham Narrow Ultra';
-  color: white;
-  font-size: 3rem;
-}
-.catalog-product-view #maincontent .delivery-wrap {
-    display: none;
-}
-  .catalog-product-view #maincontent .product-buy-free .multi {
-        color: #ecc2b4;
-  }
-  .catalog-product-view #maincontent .product-buy-free .multiPrice {
-    font-family: 'Gotham Narrow Bold';
-  }
-  #search_mini_form .mst-searchautocomplete__autocomplete .old-price, #search_mini_form .mst-searchautocomplete__autocomplete .saved-price, #search_mini_form .mst-searchautocomplete__autocomplete .special-price .price-label {
-  display:none;
-  }
-
-
 @media screen and (max-width: 767px) {
-    .catalog-product-view .page-wrapper #maincontent .column.main {
-    padding-top: 100%;
+.catalog-product-view .product.media {
+min-height: 420px;
 }
-.gallery-placeholder:not(._block-content-loading) {
-    margin-top: -100%;
-    padding-top: 3%;
+.catalog-product-view .product.media {
+margin-top: -100%
 }
-.catalog-product-view   #maincontent h1.page-title {
-    font-size: 25px!important;
-    line-height: 1;
-    margin-bottom: 3%;
+.page-wrapper .bottom-header-content {
+margin-bottom: 0%;
 }
-.catalog-product-view .page-wrapper #maincontent .product-info-main {
-      margin-top: 3%;
-}
-.catalog-product-view .product-info-main .product.attribute.sku .value {
-    font-size: 14px;
-}
-.catalog-product-view .product-info-main .product-info-price .price-wrapper .price {
-    font-weight: unset;
-    font-size: 40px;
-}
-
-.catalog-product-view .product-info-main .product-info-price .price-box {
-    /* text-align: center; */
-    margin-top: 10%;
-}
-.bottom-header-content {
-    margin-bottom: 2%;
-}
-.breadcrumbs {
-    font-size: 0.8em;
-}
-
-.breadcrumbs ul.items {
-    font-size: 1.4rem;
-    /* text-decoration: none; */
-}
-li.item a {
-    text-decoration: none;
-}
-.breadcrumbs .item:not(:last-child):after {
-    font-size: 1.2rem;
-    line-height: unset;
-    margin: 0;
+.page-wrapper .bottom-header-content .container {
+min-height: 49px;
 }
 .catalog-product-view .breadcrumbs {
-    margin-bottom: 0.5%;
+min-height: 60px;
+display: flex;
+align-items: center;
 }
-.catalog-product-view .block.related {
-    margin-top: 1%;
-    padding-top: 3%;
-}
-
-.block-title.title {
-    margin-bottom: 2%;
-}
-
-.catalog-product-view #maincontent .block-title {
-    margin-bottom: 2%;
-}
-.catalog-product-view #maincontent .product.info.detailed {
-    padding-top: 5%;
-    margin-bottom: 5%;
-}
-
-.catalog-product-view #maincontent .actions {
-    padding-top: 3%;
-}
-
-.catalog-product-view #maincontent .box-choice {
-    margin-bottom: 0;
+.catalog-product-view .page-wrapper .product.media {
+padding-top: 0!important
 }
 }
