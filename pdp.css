@@ -16,7 +16,4 @@ min-height: 60px;
 display: flex;
 align-items: center;
 }
-.catalog-product-view .page-wrapper .product.media {
-padding-top: 0!important
-}
 }
